@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    background-color: #0D263C;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.nav {
+    width: 100vw;
+    height: 4rem;
+    background-color: #608ECA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Kenia';
+    font-size: 2.5rem;
+    color: white;
+}
+
+.link {
+    display: flex;
+    gap: 4rem;
+    font-size: 1.3rem;
+}
+
+.intro {
+    height: 100%;
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo {
+    background-image: url('../images/justine.jpg');
+    background-size: cover;
+    background-position: center ;
+    width: 60%;
+    height: 100%;
+}
+
+.intros {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.intro .texts p { 
+    font-size: 2rem;
+    margin: 0;
+}
+
+.texts h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.btn {
+    background-color: #24537D;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+.btn:hover {
+    background-color: #1e476c;
+}
+
+.nav-link {
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #0D263C;
+}
+
+.about {
+    height: 100vh;
+}
+
+.contact {
+    height: 100vh;
+}
